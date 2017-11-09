@@ -16,8 +16,8 @@ import javaswing.Javaswing;//import paquete.clase
 public class parajava {
      public static void main(String[] args) 
     {
-        // TODO code application logic here
-   Javaswing ventana = new Javaswing(); // creo un  objeto  tipo windows
+       
+   Javaswing ventana = new Javaswing(); // creo un  objeto  tipo javaswing
  ventana.setVisible(true);
  ventana.setBounds(0, 0, 600, 800);
    ventana.setTitle("Mi Primer Interfaz Grafica");//  siguiente  ints. le  pone  titulo a la  ventana
