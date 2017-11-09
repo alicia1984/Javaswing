@@ -19,7 +19,7 @@ public class parajava {
        
    Javaswing ventana = new Javaswing(); // creo un  objeto  tipo javaswing
  ventana.setVisible(true);
- ventana.setBounds(0, 0, 600, 800);
+ ventana.setBounds(0, 0, 200, 100);
    ventana.setTitle("Mi Primer Interfaz Grafica");//  siguiente  ints. le  pone  titulo a la  ventana
   ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//la  siguiente  sentencia  es para  finalizar el  proyecto  al  cerrar
     
