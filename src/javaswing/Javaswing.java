@@ -9,14 +9,10 @@ package javaswing;
 import javax.swing.*;//importamos todo el swing
 import java.awt.*;//libreria grafica del sistema OPERATIVO
 /**
-/**
- *
  * @author LP 13
  */
 public class Javaswing extends JFrame //paso2 heredar mi  clase desde jframe
-
 {
-
   //paso 3 declara  los  elementos   a  utulizar
     JPanel panel;//creacion  de objeto  panel
     JLabel label;
@@ -32,7 +28,8 @@ public class Javaswing extends JFrame //paso2 heredar mi  clase desde jframe
     label = new JLabel();
     text = new JTextField(15);//15 caracteres
     boton = new JButton();
-    
+    cbox = new JCheckBox();
+    rb = new JRadioButton();
     // paso 6 agregar los elementos  al jframe
     this.add(panel);//recomensdable agregar el panel al  frame
     panel.add(label);//agregar un objeto label al panel
@@ -43,7 +40,7 @@ public class Javaswing extends JFrame //paso2 heredar mi  clase desde jframe
     //paso7 propiedades de los  elementos
     label.setText("nombre");
     boton.setText("enviar");
-    panel.setBackground(Color.pink);//color  de fondo del panel
+    panel.setBackground(Color.orange);//color  de fondo del panel
     }
 }
    
